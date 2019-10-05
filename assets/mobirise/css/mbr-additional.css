@@ -1,6 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Cairo:200,300,400,600,700,900&display=swap);
 
 
 
@@ -10,39 +8,39 @@ body {
   font-family: Muli;
 }
 .display-1 {
-  font-family: 'Muli', sans-serif;
-  font-size: 3.75rem;
+  font-family: 'Cairo', sans-serif;
+  font-size: 3.1rem;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 6rem;
+  font-size: 4.96rem;
 }
 .display-2 {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 2rem;
 }
 .display-2 > .mbr-iconfont {
   font-size: 3.2rem;
 }
 .display-4 {
-  font-family: 'Muli', sans-serif;
-  font-size: 0.8rem;
-}
-.display-4 > .mbr-iconfont {
-  font-size: 1.28rem;
-}
-.display-5 {
-  font-family: 'Kaushan Script', cursive;
-  font-size: 2rem;
-}
-.display-5 > .mbr-iconfont {
-  font-size: 3.2rem;
-}
-.display-7 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 1rem;
 }
-.display-7 > .mbr-iconfont {
+.display-4 > .mbr-iconfont {
   font-size: 1.6rem;
+}
+.display-5 {
+  font-family: 'Cairo', sans-serif;
+  font-size: 1.5rem;
+}
+.display-5 > .mbr-iconfont {
+  font-size: 2.4rem;
+}
+.display-7 {
+  font-family: 'Cairo', sans-serif;
+  font-size: 1.2rem;
+}
+.display-7 > .mbr-iconfont {
+  font-size: 1.92rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -51,9 +49,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3rem;
-    font-size: calc( 1.9625rem + (3.75 - 1.9625) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.9625rem + (3.75 - 1.9625) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.48rem;
+    font-size: calc( 1.7349999999999999rem + (3.1 - 1.7349999999999999) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.7349999999999999rem + (3.1 - 1.7349999999999999) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 1.6rem;
@@ -61,14 +59,14 @@ body {
     line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 0.64rem;
-    font-size: calc( 0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.8rem;
+    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.6rem;
-    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.2rem;
+    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -543,11 +541,11 @@ a:hover {
   border-radius: 100px;
 }
 .form-control {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1rem;
+  font-family: 'Cairo', sans-serif;
+  font-size: 1.2rem;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 1.92rem;
 }
 blockquote {
   border-color: #444444;
@@ -634,7 +632,7 @@ section.lazy-placeholder:after {
 }
 @media (min-width: 992px) {
   .cid-rDcTtG0zhg .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
+    max-height: calc(98.5vh - 4.8rem);
   }
 }
 .cid-rDcTtG0zhg .navbar.collapsed .dropdown-menu {
@@ -904,7 +902,7 @@ section.lazy-placeholder:after {
 .cid-rDcTEfyapq {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/background46.jpg");
+  background-image: url("../../../assets/images/background40.jpg");
 }
 .cid-rDcTEfyapq .mbr-text {
   color: #ffffff;
@@ -1739,7 +1737,7 @@ section.lazy-placeholder:after {
 }
 @media (min-width: 992px) {
   .cid-rDiDDQTvTv .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
+    max-height: calc(98.5vh - 4.8rem);
   }
 }
 .cid-rDiDDQTvTv .navbar.collapsed .dropdown-menu {
@@ -2013,7 +2011,7 @@ section.lazy-placeholder:after {
 .cid-rDiDDVuV6g {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/background46.jpg");
+  background-image: url("../../../assets/images/background40.jpg");
 }
 .cid-rDiDDVuV6g .mbr-text {
   color: #ffffff;
@@ -2038,7 +2036,7 @@ section.lazy-placeholder:after {
 }
 .cid-rDiDDVuV6g .card-title,
 .cid-rDiDDVuV6g .card-img {
-  color: #ffffff;
+  color: #ffba40;
   text-align: center;
 }
 .cid-rDiDDVuV6g .card-title {
