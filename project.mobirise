@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-09-26_2125",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "lawyerm4",
       "title": "LawyerM4",
@@ -44,8 +44,9 @@
       }
     ],
     "uniqCompNum": 61,
-    "versionPublish": "4.10.10",
-    "screenshot": "screenshot.png"
+    "versionPublish": "4.12.3",
+    "screenshot": "screenshot.png",
+    "imageResize": true
   },
   "pages": {
     "index.html": {
